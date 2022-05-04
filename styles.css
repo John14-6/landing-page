@@ -122,8 +122,27 @@ img[alt=bigopengrill] {
 .maillist {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   background-color: #3882F6;
   margin: 50px 150px 50px 150px;
+  color: white;
+  height: 100px;
+  border: none;
+  border-radius: 8px;
+}
+
+.mltext {
+
+}
+
+.mltop, .mlbtm {
+  padding: 2px;
+  margin: 0;
+}
+
+.mltop {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .signupbtn2 {
@@ -133,10 +152,12 @@ img[alt=bigopengrill] {
 /* Footer section */
 
 .footer {
-  height: 72px;
+  height: 56px;
   background-color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: auto;
+  color: white;
+  font-size: 20px;
 }
