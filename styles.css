@@ -31,6 +31,15 @@ img[alt=mainlogo] {
   height: 100px;
 }
 
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
 .headerlist {
   display: flex;
   justify-content: end;
