@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-
   min-height: 100vh;  
   margin: 0;
   padding: 0;
@@ -18,24 +17,28 @@ body {
 /* Header */
 .header {
   background-color: #1F2937;
+  color: white;
 }
 
 .headertop {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 24px 0;
 }
 
 img[alt=mainlogo] {
-  width: 200px;
+  width: 300px;
   height: 100px;
-  margin: 10px;
 }
 
 .headerlist {
   display: flex;
+  justify-content: end;
   list-style: none;
-  gap: 24px;
-  margin: 16px 16px;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
 }
 
 .headerbottom {
@@ -49,25 +52,38 @@ img[alt=mainlogo] {
   width: 300px;
 }
 
+.signupbtn1, .signupbtn2 {
+  height: 35px;
+  width: 100px;
+  align-self: center;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 900;
+}
+
 img[alt=bigopengrill] {
-  margin: 24px;
+
 }
 
 /* Types of BBQ */
 
 .hbbqtypes {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .bbqtypes {
   display: flex;
   justify-content: space-evenly;
-  margin: 10px;
+
 }
 
 .text {
   text-align: center;
-  padding: 10px;
+
 }
 
 .bbqimgs {
@@ -101,9 +117,8 @@ img[alt=bigopengrill] {
   margin: 50px 150px 50px 150px;
 }
 
-.signupbtn {
-  height: 25px;
-  align-self: center;
+.signupbtn2 {
+  border: 2px solid white;
 }
 
 /* Footer section */
