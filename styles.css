@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;  
+  margin: 0;
+  padding: 0;
+}
+
+.main  {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* Header */
+.header {
+  background-color: #1F2937;
+}
+
+.headertop {
+  display: flex;
+  justify-content: space-between;
+}
+
+img[alt=mainlogo] {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+
+.headerlist {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 16px 16px;
+}
+
+.headerbottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 0 36px;
+}
+
+.hquote {
+  width: 300px;
+}
+
+img[alt=bigopengrill] {
+  margin: 24px;
+}
+
+/* Types of BBQ */
+
+.hbbqtypes {
+  text-align: center;
+}
+
+.bbqtypes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+.bbqimgs {
+  width: 200px;
+  height: 100px;
+}
+
+/* Quote section */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.quotetext {
+  text-align: center;
+  width: 300px;
+}
+
+.quoteauthor {
+  text-align: end;
+}
+
+/* Mail list section */
+
+.maillist {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882F6;
+  margin: 50px 150px 50px 150px;
+}
+
+.signupbtn {
+  height: 25px;
+  align-self: center;
+}
+
+/* Footer section */
+
+.footer {
+  height: 72px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
